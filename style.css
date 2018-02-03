@@ -1,0 +1,52 @@
+body {
+    background-image: url("beer.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    color: white;
+    background-color: #9E9E9E;
+    background-color: rgba(35, 35, 35, 0.7);
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5em 1em 2em 1em;
+    border-radius: 1em;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.btn-1 {
+    background-color: #42a7f4;
+}
+
+.btn-2 {
+    background-color: #41bf9d;
+}
+
+.btn-sm {
+    padding: 0.5em 0.6em;
+    font-size: 0.9em;
+}
+
+#img {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.hidden {
+    display: none;
+}
+
