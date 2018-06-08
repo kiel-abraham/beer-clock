@@ -52,6 +52,7 @@ $(document).ready(function(){
 	
 	$.each(data, function (index) {
 		$.each(data[index], function (key, value) {
+			console.log("Value", value, "Format", format);
 			if (value === format) {
 				array = data[index].places;
 			}
