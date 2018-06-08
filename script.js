@@ -18,10 +18,11 @@ $(document).ready(function(){
 	
 	var format, x, y, z;
 	var update;
-	if (actual > 12 || actual < -12) {
-		update = actual % 12;
-	} else {
-		update = actual;
+	if (actual > 12) {
+		update = actual - 24;
+	}
+	if (actual < -12) {
+		update = actual + 24;
 	}
 	var num = update.toString();
 	var length = num.length;
