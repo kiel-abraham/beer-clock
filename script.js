@@ -40,11 +40,7 @@ $(document).ready(function(){
 		}
 		format = "UTC-" + z + ":00";
 	} else {
-		y = num.slice(0, length);
-		// if (y > 12) {
-		// 	y = y % 12;
-		// 	y = y.toString();
-		// }
+		y = num;
 		if (y.length == 1) {
 			x = "0";
 			z = x.concat(y);
