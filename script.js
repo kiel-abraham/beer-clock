@@ -57,7 +57,7 @@ $(document).ready(function(){
 			}
 		});
 	});
-	console.log("Data", data);
+	console.log("Data", array);
 	
 	Array.prototype.shuffle = function() {
 	    var input = this;
