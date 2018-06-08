@@ -30,7 +30,7 @@ $(document).ready(function(){
 	
 	if (num == "0") {
 		format = "UTC±00:00";
-	} else if (num.search("-") != -1) {
+	} else if (num.search("-") == 0) {
 		y = num.slice(1, length);
 		if (length == 2) {
 			x = "0";
