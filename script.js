@@ -20,9 +20,10 @@ $(document).ready(function(){
 	var update;
 	if (actual > 12) {
 		update = actual - 24;
-	}
-	if (actual < -12) {
+	} else if (actual < -12) {
 		update = actual + 24;
+	} else {
+		update = actual;
 	}
 	var num = update.toString();
 	var length = num.length;
