@@ -51,6 +51,7 @@ $(document).ready(function(){
 	}
 	
 	$.each(data, function (index) {
+		console.log("Running function", index);
 		$.each(data[index], function (key, value) {
 			console.log("Value", value, "Format", format);
 			if (value === format) {
