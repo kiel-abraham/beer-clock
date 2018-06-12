@@ -6,6 +6,7 @@ $(document).ready(function(){
 	$.ajaxSetup({ async: false });
 	$.getJSON("timezones.json", function(result){
 		data = result;
+        
 	});
 	
 	var time = new Date($.now());
@@ -51,13 +52,11 @@ $(document).ready(function(){
 	}
 	
 	$.each(data, function (index) {
-		$.each(data[index], function (key, value) {
-			if (value === format) {
-				array = data[index].places;
-			}
-		});
+        if (data[index].zone == format) {
+            array = data[index].places;
+        }
 	});
-	console.log("Data", array);
+    
 	
 	Array.prototype.shuffle = function() {
 	    var input = this;
@@ -70,9 +69,8 @@ $(document).ready(function(){
 	    return input;
 	};
 	
-	setTimeout(function() {
-		hub = array.shuffle();
-	},1000);
+    hub = array.shuffle();
+
 });
 
 
@@ -99,6 +97,3 @@ $(".run").click(function () {
 	count++;
 });
 
-
-
- 
