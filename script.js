@@ -69,7 +69,10 @@ $(document).ready(function(){
 	    }
 	    return input;
 	};
-	hub = array.shuffle();
+	
+	setTimeout(function() {
+		hub = array.shuffle();
+	},1000);
 });
 
 
