@@ -1,6 +1,6 @@
 [
 	{
-		"zone": "UTC−12:00",
+		"zone": "UTC-12:00",
 		"places": [
 			{
 				"name": "Baker Island",
@@ -13,7 +13,7 @@
 		]
 	},
 	{
-		"zone": "UTC−11:00",
+		"zone": "UTC-11:00",
 		"places": [
 			{
 				"name": "American Samoa",
@@ -42,7 +42,7 @@
 		]
 	},
 	{
-		"zone": "UTC−10:00",
+		"zone": "UTC-10:00",
 		"places": [
 			{
 				"name": "Cook Islands",
@@ -63,7 +63,7 @@
 		]
 	},
 	{
-		"zone": "UTC−09:30",
+		"zone": "UTC-09:30",
 		"places": [
 			{
 				"name": "French Polynesia - Marquesas Islands",
@@ -72,7 +72,7 @@
 		]
 	},
 	{
-		"zone": "UTC−09:00",
+		"zone": "UTC-09:00",
 			"places": [
 				{
 					"name": "French Polynesia - Mangareva",
@@ -85,7 +85,7 @@
 			]
 	},
 	{
-		"zone": "UTC−08:00",
+		"zone": "UTC-08:00",
 			"places": [
 				{
 					"name": "Canada - Vancouver",
@@ -106,7 +106,7 @@
 			]
 	},
 	{
-		"zone": "UTC−07:00",
+		"zone": "UTC-07:00",
 			"places": [
 				{
 					"name": "Canada - Edmonton",
@@ -127,7 +127,7 @@
 			]
 	},
 	{
-		"zone": "UTC−06:00",
+		"zone": "UTC-06:00",
 			"places": [
 				{
 					"name": "Belize",
@@ -176,7 +176,7 @@
 			]
 	},
 	{
-		"zone": "UTC−05:00",
+		"zone": "UTC-05:00",
 			"places": [
 				{
 					"name": "Bahamas",
@@ -233,7 +233,7 @@
 			]
 	},
 	{
-		"zone": "UTC−04:00",
+		"zone": "UTC-04:00",
 			"places": [
 				{
 					"name": "Anguilla",
@@ -354,7 +354,7 @@
 			]
 	},
 	{
-		"zone": "UTC−03:30",
+		"zone": "UTC-03:30",
 			"places": [
 				{
 					"name": "Canada - Newfoundland",
@@ -401,7 +401,7 @@
 		]
 	},
 	{
-		"zone": "UTC−02:00",
+		"zone": "UTC-02:00",
 			"places": [
 				{
 					"name": "Brazil - Fernando de Noronha",
@@ -414,7 +414,7 @@
 			]
 	},
 	{
-		"zone": "UTC−01:00",
+		"zone": "UTC-01:00",
 			"places": [
 				{
 					"name": "Cape Verde",
